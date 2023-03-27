@@ -10,7 +10,7 @@
             "request": "launch",
             "mode": "auto",
             "program": "${fileDirname}",
-            "args": ["test.xlsx"],
+            "args": ["test.xlsx", "test.txt"],
         }
     ]
 }
