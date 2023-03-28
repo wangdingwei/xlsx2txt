@@ -7,11 +7,18 @@ mkdir -p build
 build() {
     local os=$(go env GOOS)
     local arch=$(go env GOARCH)
-    local suffix=""
+    local file=xlsx2txt
     if [[ $os == win* ]]; then
-        suffix=.exe
+        file=$file.exe
     fi
-    go build -o build/xlsx2txt_${os}_${arch}${suffix}
+    go build -o build/$file
+    (
+        cd build
+        zip xlsx2txt_${os}_${arch}.zip $file
+        rm -f $file
+    )
+    
+    
 }
 
 GOOS=windows GOARCH=amd64 build
