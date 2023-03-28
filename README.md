@@ -9,7 +9,8 @@
     + Tools/工具 ---> File Formats/文件格式
 * new **Text Format**
 * set external program to convert excel to txt
-  `/path/xlsx2txt  %s %t`
+  `/path/xlsx2txt  "%s" "%t"`
+  `/path/xlsx2txt.exe  "%s" "%t"`
 
 
 
