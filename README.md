@@ -19,7 +19,7 @@
 
 
 
-![setting](docs/bc_setting.png)
+![beyond compare setting](docs/bc_setting.png)
 
 ### variables for external conversion program
 
@@ -28,4 +28,13 @@
 * %n - source filename
 * %x - extension of the source file
 
+
+## P4V setting
+
+use beyond compare as the diff tool
+
+* mac: P4V ---> Preferences
+* win: Edit ---> Preferences
+
+![p4v setting](docs/p4v_setting.png)
     
