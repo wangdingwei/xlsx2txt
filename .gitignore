@@ -1,5 +1,6 @@
 /test.txt
 /xlsx2txt
+/build/
 *.exe
 
 
