@@ -24,7 +24,7 @@ func main() {
 
 	outfile, err := os.Create(outfileName)
 	if err != nil {
-		fmt.Println(err)
+		fmt.Fprintln(os.Stderr, "create out file failed:", err)
 		os.Exit(1)
 	}
 	defer outfile.Close()
@@ -38,7 +38,7 @@ func main() {
 	}
 	defer func() {
 		if err := xlsxFile.Close(); err != nil {
-			fmt.Fprintln(os.Stderr, err)
+			fmt.Fprintln(os.Stderr, "close xlsx file failed:", err)
 		}
 	}()
 
