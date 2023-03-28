@@ -12,7 +12,7 @@
 * Genernal(常规) tab 
   + Mask(掩码): `*.xlsx`
 * Conversion(转换) tab
-  + **external program(外部程序ANSI文件名)** to convert excel to txt
+  + **external program(外部程序ANSI文件名)** to convert excel to txt. download xlsx2txt from release.
     - windows: `/path/xlsx2txt  "%s" "%t"`
     - other os: `/path/xlsx2txt.exe  "%s" "%t"`
   + check **disable editing**
@@ -31,10 +31,13 @@
 
 ## P4V setting
 
+
 use beyond compare as the diff tool
 
-* mac: P4V ---> Preferences
-* win: Edit ---> Preferences
++ open setting dialog
+  - mac: P4V ---> Preferences
+  - win: Edit ---> Preferences
+- set diff application in **diff** tab
 
 ![p4v setting](docs/p4v_setting.png)
     
