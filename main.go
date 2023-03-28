@@ -46,7 +46,8 @@ func main() {
 	for _, sheet := range xlsxFile.GetSheetList() {
         
         fmt.Fprintln(writer)
-	    fmt.Fprintln(writer, "======", sheet, "======")
+	    fmt.Fprintf(writer, "====== [sheet: %s] ======", sheet)
+        fmt.Fprintln(writer)
         printSheet(xlsxFile, sheet)
         fmt.Fprintln(writer)
 	}
