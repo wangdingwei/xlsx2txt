@@ -5,12 +5,17 @@
 ## beyond compare setting
 
 * open **File Formats** setting dialog
-    + beyond compare ---> File Formats
-    + Tools/工具 ---> File Formats/文件格式
-* new **Text Format**
-* set external program to convert excel to txt
-  + windows: `/path/xlsx2txt  "%s" "%t"`
-  + other: `/path/xlsx2txt.exe  "%s" "%t"`
+  + mac: beyond compare ---> File Formats
+  + win: Tools(工具) ---> File Formats(文件格式)
+* new **Text Format(文本格式)**  
+  click **+** in the left bottom corner, create new file format
+* Genernal(常规) tab 
+  + Mask(掩码): `*.xlsx`
+* Conversion(转换) tab
+  + **external program(外部程序ANSI文件名)** to convert excel to txt
+    - windows: `/path/xlsx2txt  "%s" "%t"`
+    - other os: `/path/xlsx2txt.exe  "%s" "%t"`
+  + check **disable editing**
 
 
 
