@@ -5,6 +5,8 @@
 ## beyond compare setting
 
 * open **File Formats** setting dialog
+    + beyond compare ---> File Formats
+    + Tools/工具 ---> File Formats/文件格式
 * new **Text Format**
 * set external program to convert excel to txt
   `/path/xlsx2txt  %s %t`
