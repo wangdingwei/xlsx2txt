@@ -13,8 +13,8 @@
   + Mask(掩码): `*.xlsx`
 * Conversion(转换) tab
   + **external program(外部程序ANSI文件名)** to convert excel to txt. download `xlsx2txt` tool from release.
-    - windows: `/path/xlsx2txt  "%s" "%t"`
-    - other os: `/path/xlsx2txt.exe  "%s" "%t"`
+    - windows: `\path\xlsx2txt.exe  "%s" "%t"`
+    - other os: `/path/xlsx2txt  "%s" "%t"`
   + check **disable editing**
 
 
